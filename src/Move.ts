@@ -68,7 +68,7 @@ export class Move {
 
   toString(): string {
     return (
-      `step ${this.Position + 1}: ${this.Description}`.padEnd(70) +
+      `step ${this.Position + 1}: ${this.Description}`.padEnd(75) +
       `Buckets: ${this.BucketA.toString()} | ${this.BucketB.toString()}${this.ChildStrings()}`
     );
   }
