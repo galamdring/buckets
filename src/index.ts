@@ -46,7 +46,7 @@ function main() {
         process.exit(1);
       }
       console.log(
-        `Bucket One has size ${aSize}, and Bucket Dos has size ${bSize}, Target is ${target}`
+        `Bucket One has size ${aSize}, and Bucket Dos has size ${bSize}, Target is ${target}\n`
       );
       let BucketA = new Bucket("One", 0, aSize);
       let BucketB = new Bucket("Dos", 0, bSize);
